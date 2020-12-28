@@ -22,11 +22,7 @@ ui <- fluidPage(
       selectInput("variable", "Variable:",
                   c("Cylinders" = "cyl",
                     "Transmission" = "am",
-                    "Gears" = "gear")),
-      
-      
-      
-    ),
+                    "Gears" = "gear")), ),
     
     # Main panel for displaying outputs ----
     mainPanel(
